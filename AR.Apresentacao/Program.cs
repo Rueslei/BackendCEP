@@ -23,3 +23,9 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+/* Exemplo de URL da API
+ * https://localhost:7046/CepResponse?cepInformado=strCEP
+ * https://localhost:7046/CepResponse?cepInformado=49100000
+ *  
+ */
