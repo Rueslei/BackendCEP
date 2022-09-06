@@ -22,9 +22,9 @@ namespace AR.Apresentacao.Controllers
             }
             catch (Exception e)
             {
-                string str = e.Message;
+                //string str = e.Message;
                 //return (IActionResult)JObject.Parse(str);
-                return BadRequest(str);
+                return StatusCode(500, e.Message);
             }
         }
     }
